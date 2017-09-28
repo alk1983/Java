@@ -8,6 +8,7 @@ public class Sportsman {
     }
     public static void main(String[] args ){
         Sportsman1 sport = new Sportsman1();
+        sport.name =
 
 
     }

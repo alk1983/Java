@@ -19,7 +19,7 @@ public class Rand {
         }
         System.out.println("Введите число от 0 до 100 ");
         int X = in.nextInt();
-        int k =0;/*Задаём счётчик*/
+        int k =0;                               /*Задаём счётчик*/
         if (X<100) {
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < N; j++) {
