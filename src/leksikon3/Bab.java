@@ -1,18 +1,19 @@
 package leksikon3;
 
 import java.util.Scanner;
+/**
+ * Программа заполняет квадратную матрицу цифрами «1» в форме бабочки.
+ * @author Aleh Karpachew
+ */
 
 public class Bab {
     public static void main(String[] args ) {
-        System.out.println("Введите целое положительное число, больше 3");
+        System.out.println("Введите целое положительное число");
         Scanner in = new Scanner(System.in);
         int x = in.nextInt();
         int array[][] = new int[x][x];   /*Вводим размер массива и создаём его*/
 
-        for (int i = 0; i < x; i++)
-            for (int j = 0; j < x; j++) {/*Заполняем весь массив 0 выми элементами, можно не делать   */
-                array[i][j] = 0;
-            }
+
             int n =x/2;                  /*Находим середину массива*/
 
         for (int i=0;i<n;i++){
