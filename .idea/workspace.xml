@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a0340d3-e148-4a76-8d86-7c77fe58830e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lekcion1/Robot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lekcion1/main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion4/GoldComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion4/NameComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion4/Sportsman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion4/TotalComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion4/main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leksion6/Compani.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/leksikon3/Sportsman.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/lekcion1/Helloword.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/lekcion1/Robot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/lekcion1/main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksikon3/Bab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksikon3/Rand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion4/GoldComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion4/NameComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion4/Sportsman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion4/TotalComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion4/main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/untitled3/leksion6/Compani.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leksikon3/Bab.java" afterPath="$PROJECT_DIR$/src/leksikon3/Bab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leksikon3/Rand.java" afterPath="$PROJECT_DIR$/src/leksikon3/Rand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,8 +203,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="16" />
+    <option name="y" value="4" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -500,7 +500,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64301000" />
+    <option name="totallyTimeSpent" value="64538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
