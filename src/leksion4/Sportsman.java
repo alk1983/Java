@@ -1,5 +1,9 @@
 package leksion4;
 
+/**
+ * У каждого спортсмена есть поля имя, количество золотых и серебрянных медалей, общее количество медалей
+ * Общие методы toString и hashCode переопределены
+ */
 public class Sportsman {
 
    private String name;

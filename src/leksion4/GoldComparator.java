@@ -2,6 +2,9 @@ package leksion4;
 
 import java.util.Comparator;
 
+/**
+ * Компаратор для золотых медалей спортсменов
+ */
 public class GoldComparator implements Comparator {
     @Override
     public int compare(Object obj1, Object obj2) {

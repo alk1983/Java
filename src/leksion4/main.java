@@ -1,14 +1,20 @@
 package leksion4;
 import java.util.Arrays;
 import java.util.Comparator;
+
+/**Следующая программа демонстрирует методы базовых объектов, которые переопределяют класс «Спортсмен».
+   * Переопределенные методы: toString, hashCode.
+   * Отпечатанные списки спортсменов печатаются (сортируются по именам, золотой медали, общему количеству медалей)
+   * Для сортировки используются переопределенные компараторы.
+ *
+ */
+
 public class main {
     public static Comparator cname = new NameComparator ();
     public static Comparator t = new TotalComparator();
     public static Comparator g = new GoldComparator();
 
     public static void main(String[] args ) {
-
-
         Sportsman sport[] = new Sportsman[6];
         String names[] = {  "Aleh", "Johny", "Abby", "John", "Bob",
                              ""};
@@ -24,7 +30,7 @@ public class main {
             System.out.println(i + 1 + "." + sport[i].toString()+sport[i].hashCode());
         }
         Arrays.sort (sport, cname);
-        // List of sportsmen sorted per name output
+        // Список спортсменов отсортированных по имени
         System.out.println ("\n" + "Спортсмены по алфавиту:");
         for (int i=0; i<6; i++) {
             System.out.println ((i+1) + ". " + sport[i].toString());
@@ -38,10 +44,7 @@ public class main {
         Arrays.sort(sport,t);
         for (int i=0; i<6; i++) {
             System.out.println ((i+1) + ". " + sport[i].toString());
-
-
         }
-
     }
 
 }
