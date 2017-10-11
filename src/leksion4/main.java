@@ -20,6 +20,9 @@ public class main {
         for (int i=0; i<6; i++) {
             System.out.println(i+1+"."+sport[i].toString());
         }
+        for (int i=0; i<6; i++) {
+            System.out.println(i + 1 + "." + sport[i].toString()+sport[i].hashCode());
+        }
         Arrays.sort (sport, cname);
         // List of sportsmen sorted per name output
         System.out.println ("\n" + "Спортсмены по алфавиту:");
@@ -35,6 +38,8 @@ public class main {
         Arrays.sort(sport,t);
         for (int i=0; i<6; i++) {
             System.out.println ((i+1) + ". " + sport[i].toString());
+
+
         }
 
     }

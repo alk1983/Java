@@ -24,7 +24,13 @@ public Sportsman( String name,int gold,int silver){
    public int getTotal(){
       return this.total;
    }
+   @Override
 public String toString (){
    return name + "["+gold+";"+silver+"]";
    }
+   @Override
+   public int hashCode(){
+   return (gold+silver)*31+Math.abs(name.hashCode());
+   }
 }
+
